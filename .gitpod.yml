@@ -1,10 +1,5 @@
-vscode:
-  extensions:
-     - dbaeumer.vscode-eslint
-
 tasks:
-  - name: Install AI Test Case Extension
-    init: true
-    command: code --install-extension ./ai-testcase-generator-0.0.1.vsix
+  - init: code --install-extension ./ai-testcase-generator-0.0.1.vsix
 
-
+vscode:
+  extensions: []
